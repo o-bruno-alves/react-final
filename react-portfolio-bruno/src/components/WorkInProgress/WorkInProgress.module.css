@@ -1,0 +1,20 @@
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    img {
+      width: 4rem;
+      height: auto;
+    }
+    padding: 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(
+      135deg,
+      rgb(188, 188, 188) 0%,
+      rgba(106, 106, 106, 0.463) 0%,
+      rgba(0, 0, 0, 1) 80%
+    );
+    margin-bottom: 2rem; 
+}

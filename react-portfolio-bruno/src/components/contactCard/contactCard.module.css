@@ -1,0 +1,33 @@
+.social {
+  background-color: #d3d3d30d;
+  border-radius: 50%;
+  padding: 2%;
+  img{
+    padding: 0.5rem;
+    height: 3rem;
+    width: auto;
+  }
+
+}
+
+.info {
+  display: flex;
+  text-align: left;
+gap: 1rem;
+p{
+    font-size: 12px;
+    padding: 0.2rem;
+  }
+  img {
+    height: 5rem;
+    width: auto;
+    background-color: #d3d3d30d;
+    border-radius: 1rem;
+    padding: 5%;
+    
+}}
+
+.grey {
+  color: var(--t-grey);
+  text-transform: uppercase;
+}

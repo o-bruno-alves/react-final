@@ -1,0 +1,57 @@
+.mainHeader{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+	padding: 2.1rem;
+	gap: 4rem;
+	height: 7.8rem;
+}
+
+.logo {
+    max-width: 11.4rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mainMenu {
+	ul {
+		display: flex;
+		align-items: center;
+		gap: 4rem;
+        list-style-type: none;
+        padding: 0;
+	}
+
+	li {
+		font-size: 16px;
+		line-height: 2.4rem;
+		letter-spacing: 0.02rem;
+		font-weight: bold;
+		color: var(--t-grey);
+        filter: brightness(50%);
+	}
+}
+
+.contactButton{
+    button{
+        color: rgba(255, 255, 255, 0.87);
+        background-color: var(--b-grey);
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 1rem;
+    }
+}
+
+.mainFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: space-between;
+	height: 6rem;
+    ul{
+        gap: 2rem;
+    }
+    li{
+        font-size: 16px;
+    }
+}

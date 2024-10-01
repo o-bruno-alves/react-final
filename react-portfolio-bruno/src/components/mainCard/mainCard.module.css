@@ -1,0 +1,307 @@
+.bannerCard > div > div {
+  display: flex;
+  text-wrap: nowrap;
+  overflow: hidden;
+  content: repeat;
+  gap: 0.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #d3d3d30d;
+  img {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  p {
+    text-transform: uppercase;
+    color: var(--t-grey);
+    line-height: 24px;
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+}
+
+.heartCard {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 2rem 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+  p,
+  span {
+    line-height: 24px;
+    font-size: 16px;
+    text-align: left;
+  }
+  position: relative;
+}
+
+.heartCard > div > div {
+  position: absolute;
+  top: 6rem;
+  span {
+    color: #bcd6ff;
+  }
+}
+::placeholder{
+  color: #bcd6ff;}
+.heartFormCard {
+  width: 100%;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  [type="text"],
+  [type="email"] {
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: #d3d3d30d;
+    border-radius: 1rem;
+    border: transparent;
+  }
+  [name="YourMessage"]{
+    padding-bottom: 4rem;
+  }
+  [type="submit"]{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: transparent;
+    width: 100%;
+    background-color: #bcd6ff;
+    color: #000000;
+  }
+}
+.heartFormCard > div > div > div {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 50%;
+  img {
+    height: 24px;
+    width: auto;
+  }
+  span {
+    line-height: 24px;
+    font-size: 16px;
+    color: #bcd6ff;
+  }
+  p,
+  span {
+    line-height: 24px;
+    font-size: 16px;
+    text-align: left;
+  }
+}
+.heartSummaryCard {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 2rem 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+  span {
+    color: var(--t-grey);
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.heartSummaryCard > div > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.heart {
+  display: flex;
+  img {
+    padding: 2rem 0rem;;
+    height: 50%;
+    width: auto;
+  }
+}
+.heartCardPageButton {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 4rem;
+  height: auto;
+}
+
+.titleCard {
+  display: flex;
+  font-size: 24px;
+  img {
+    width: 4rem;
+    height: auto;
+  }
+}
+.presentationCard {
+  display: flex;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+}
+.presentationCard img {
+  border-radius: 2rem;
+  padding: 1rem;
+  height: 100%;
+}
+
+.presentationCard > div > div {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: left;
+  position: relative;
+  a {
+    position: absolute;
+    bottom: -10%;
+    right: 0;
+  }
+  a img {
+    padding: 0;
+    border-radius: 0;
+  }
+  p {
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--t-grey);
+  }
+  span {
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--t-grey);
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.experienceCard {
+  display: flex;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+}
+
+.experienceCard > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+  line-height: 1.3rem;
+  span, p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--t-grey);
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--t-grey);
+  }
+}
+
+.justImage {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+  img {
+    border-radius: 2rem;
+    height: 100%;
+  }
+}
+
+
+.restCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #d3d3d30d;
+}
+
+.image {
+  max-height: 70%;
+}
+
+.restCards > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  position: relative;
+  bottom: 5%;
+  a {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  p {
+    line-height: 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--t-grey);
+  }
+  span {
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--t-grey);
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.restCards img {
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.pageButton {
+  width: 4rem;
+  height: auto;
+}
+
+.multipleImages {
+  width: 100%;
+  max-height: 70%;
+  display: flex;
+  justify-content: space-around;
+  img {
+    padding: 4rem;
+    height: 100%;
+    width: auto;
+  }
+}
+
+.doubleImage {
+  max-height: 70%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  img {
+    padding: 0.5rem;
+    height: 3rem;
+    width: auto;
+    border-radius: 50%;
+    padding: 2%;
+  }
+}
